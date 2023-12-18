@@ -6,7 +6,7 @@
 
 ### OpenCore
 
-[OpenCore 0.9.2](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
@@ -37,7 +37,7 @@
 ### ScreenShot
 
  - about this mac & Cinebench R20
- 
+
 ![image](ScreenShot/imac.png)
 
 ### Case
