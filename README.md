@@ -6,12 +6,14 @@
 
 ### OpenCore
 
-[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.4](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
 - macOS Monterey 12.x
-- macOS Ventura  13.x 
+- macOS Ventura   13.x 
+- macOS Sonoma  14.x
+- macOS Sequoia  15.x  
 
 ### Hardware
 
@@ -25,8 +27,37 @@
 - Ethernet Card: Realtek RTL8111
 - PSU: HuntKey 210W
 
+### BIOS
+
+```
+Devices
+  |-- ATA Drive Setup
+    |-- Configure STAT as: ACHI
+  |-- Video Setup
+    |-- Select Active Video: IGD
+    |-- Pre-Allocated Memory Size: 64MB
+    |-- Total Graphics Memory: Maximum
+
+Advanced
+  |-- CPU Setup
+    |-- Intel(R) Hyper-Threading Technology: Enabled
+    |-- Core Multi-Processing: Enabled
+    |-- Intel(R) Virtualization Technology: Enabled
+
+Power
+  |-- Automatic Power On
+    |-- Wake on LAN: Disabled
+    
+Security
+  |-- Secure Boot
+    |-- Secure Boot: Disabled
+
+Startup
+  |-- Fast Boot: Disabled
+```
+
 ### Notes
- - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) build your SMBIOS
+ - Use [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools/releases) build your SMBIOS
  - U Must Use CFGLock.efi Tool Unlock CFG LOCK first
 ![image](ScreenShot/CFGLock.efi.png)
 
