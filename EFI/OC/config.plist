@@ -5,7 +5,9 @@
         <key>#About</key>
         <string>B站UP：乌龙蜜桃来一打</string>
         <key>#Website</key>
-        <string>https://github.com/hackintosh-efi/Lenovo-QiTian-M437</string>
+        <string>https://github.com/hackintosh-club/Lenovo-ThinkCentre-M730s</string>
+		<key>#QQGroup</key>
+		<string>hackintosh.club QQ群：23304408</string>
         <key>ACPI</key>
         <dict>
             <key>Add</key>
